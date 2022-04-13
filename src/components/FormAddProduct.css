@@ -1,0 +1,22 @@
+.container {
+	width: 50vw;
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container-form {
+	width: 50vw;
+	height: 80vh;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+p {
+	color: red;
+}
