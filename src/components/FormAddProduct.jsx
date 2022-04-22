@@ -50,48 +50,48 @@ export const FormAddProduct = () => {
 					name="sku"
 					type="Text"
 					label="SKU"
-					value={formik.values.SKU}
+					value={formik.values.sku}
 					onChange={formik.handleChange}
 					onBlur={formik.handleBlur}
 				/>
-				{formik.touched.SKU && formik.errors.SKU ? (
-					<p>{formik.errors.SKU}</p>
+				{formik.touched.sku && formik.errors.sku? (
+					<p>{formik.errors.sku}</p>
 				) : null}
 				<TextField
 					fullWidth
 					name="name"
 					type="Text"
 					label="Name"
-					value={formik.values.Name}
+					value={formik.values.name}
 					onChange={formik.handleChange}
 					onBlur={formik.handleBlur}
 				/>
-				{formik.touched.Name && formik.errors.Name ? (
-					<p>{formik.errors.SKU}</p>
+				{formik.touched.name && formik.errors.name ? (
+					<p>{formik.errors.name}</p>
 				) : null}
 				<TextField
 					fullWidth
 					name="quantity"
 					type="Number"
 					label="Quantity"
-					value={formik.values.Quantity}
+					value={formik.values.quantity}
 					onChange={formik.handleChange}
 					onBlur={formik.handleBlur}
 				/>
-				{formik.touched.Quantity && formik.errors.Quantity ? (
-					<p>{formik.errors.SKU}</p>
+				{formik.touched.quantity && formik.errors.quantity ? (
+					<p>{formik.errors.quantity}</p>
 				) : null}
 				<TextField
 					fullWidth
 					name="price"
 					type="Number"
 					label="Price"
-					value={formik.values.Price}
+					value={formik.values.price}
 					onChange={formik.handleChange}
 					onBlur={formik.handleBlur}
 				/>
-				{formik.touched.Price && formik.errors.Price ? (
-					<p>{formik.errors.SKU}</p>
+				{formik.touched.price && formik.errors.price ? (
+					<p>{formik.errors.price}</p>
 				) : null}
 				<Button type="submit" variant="contained">
 					Añadir
